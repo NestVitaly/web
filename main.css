@@ -1,0 +1,96 @@
+body {
+    max-height: 100%;
+    min-height: auto;
+    padding: 0 2px 2px 2px;
+    background: -webkit-linear-gradient(315deg, rgb(253, 253, 253), rgb(92, 16, 16));
+    background: -moz-linear-gradient(315deg, rgb(253, 253, 253), rgb(92, 16, 16));
+    background: linear-gradient(315deg, rgb(253, 253, 253), rgb(92, 16, 16));
+}
+
+.container {
+    box-sizing: border-box;
+    min-height: 100%;
+    padding-bottom: 50px;
+}
+
+h1 {
+    font-family: 'Marck Script', cursive;
+    text-align: center;
+    font-size: 100px;
+    color: brown;
+    margin-top: 0;
+    text-shadow: 2px 2px 2px white;
+}
+
+h1:active {
+    font-family: 'Lobster', cursive;
+}
+
+.hello,
+.time,
+.dream,
+.baggage {
+    padding-left: 15px;
+    padding-top: 10px;
+    font-family: 'Lobster', cursive;
+    font-size: 25px;
+    color: white;
+    text-shadow: 2px 2px 2px brown;
+}
+
+.hi,
+.hobbi {
+    width: 40%;
+    height: auto;
+    margin-left: 5px;
+    padding-bottom: 10px;
+    background: transparent;
+    border-radius: 50px;
+    box-shadow: 4px 4px 4px white;
+    display: block;
+}
+
+.hi {
+    float: left;
+}
+
+.hobbi {
+    float: right;
+    margin-right: 10px;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+}
+
+.hello > .source, .star > a {
+    color: white;
+    text-decoration: none;
+}
+
+.baggage {
+    padding-left: 30px;
+}
+
+.game {
+    width: 350px;
+    height: 200px;
+    margin: 20px;
+    border-radius: 10px;
+    display: block;
+}
+
+.dream {
+    float: left;
+    font-size: 30px;
+    color: brown;
+    text-shadow: 2px 2px 2px white;
+}
+
+.star {
+    text-align: center;
+    float: left;
+    color: white;
+    text-shadow: 2px 2px 2px brown;
+}
